@@ -1,0 +1,192 @@
+/* Reset de estilos para garantir consistência entre navegadores */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* body */
+body {
+    background-color: rgba(20,20,20,255);
+    font-family: "Inter", Roboto, sans-serif;
+    font-size: 13.5px;
+    color: rgb(255, 255, 255);
+
+   
+    padding-left: 48px;
+    padding-right: 48px;
+
+    /* Desabilitar seleção de texto em todo o site */
+    -webkit-user-select: none; /* Safari */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* Internet Explorer */
+    user-select: none; /* padrão */ 
+}
+
+/* header  */
+header {
+    height: 70px;
+    width: 945px;
+    padding: 18px 0;
+    display: flex;
+}
+
+.logo-netflix {
+    width: 100px;
+    height: 34px;
+}
+
+.menu-abas {
+    list-style:none;
+    display: flex;
+    gap: 18px;
+    padding: 8px 0px 0px 40px;
+}
+
+.links-menu {
+    color: rgb(228, 228, 228);
+    text-decoration: none;
+    transition: opacity 0.2s ease;
+}
+.links-menu:hover {
+    opacity: 0.7; 
+}
+
+#inicio {
+    font-weight:bold;
+    color: rgb(255, 255, 255);
+}
+#inicio:hover {
+    opacity: 1.0;
+}
+
+.menu-perfil {
+    position: absolute;
+    right: 48px;
+    top: 14px;
+}
+
+.icone {
+    width:auto;
+    height: 29px;
+    position: relative;
+    top: 2px;
+}
+
+#infantil {
+    position: relative;
+    top: -4px;
+    margin: 0px 10px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.foto-perfil {
+    width:auto;
+    height: 30px;
+    position: relative;
+    top: 5px;
+    margin: 0px 3px 0px 8px;
+    border-radius: 4px;
+}
+
+.icone-seta {
+    width:auto;
+    height: 14px;
+    position: relative;
+    top: -2px;
+    transition: transform 0.3s ease;
+}
+.icone-seta:hover {
+    transform: rotate(180deg); 
+}
+
+.section {
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.section-title-div {
+    display: flex;
+}
+.section-title {
+    color: rgb(228, 228, 228);
+    font-size: 12px;
+    margin-left: 2px;
+    text-decoration: none;
+}
+.section-title:hover {
+    color: rgb(255, 255, 255);
+}
+
+.poster-position {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.poster-img {
+    width: auto;
+    height: 135px;
+    border-radius: 3px;
+}
+.linha {
+    margin: 5px auto;
+    height: 2.5px; 
+    width: 60%;
+    border: none;
+    background-image: linear-gradient(to right, rgba(229,9,20,255) 30%, rgba(91,91,91,255) 30%);
+}
+.footer {
+    margin: 0px 40px 0px 40px;
+}
+.footer-icons {
+    font-size: 20px;
+    margin: 100px 0px 0px 60px;
+}
+.fab {
+    margin-right: 20px;
+    color: rgb(255, 255, 255);
+}
+
+.footer-links {
+    list-style:none;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+    margin: 0px 30px 30px 40px;
+}
+
+.footer-links-li {
+    flex: 1 0 25%;
+    padding: 10px;
+}
+  
+.footer-links-a {
+    text-decoration: none;
+    color: rgb(138, 138, 138);
+    font-size: 12.5px;
+}
+
+.footer-links-a:hover {
+    text-decoration: underline;
+}
+
+.codigo-servico {
+    text-decoration: none;
+    font-size:12.5px;
+    color:rgb(138, 138, 138);
+    border: rgb(138, 138, 138) solid 1px;
+    padding: 7px;
+    margin: 0px 0px 0px 50px;
+}
+
+.codigo-servico:hover {
+    color: rgb(255, 255, 255);
+}
+
+.copyright {
+    color:rgb(138, 138, 138);
+    font-size: 11px;
+    margin: 30px 0px 20px 50px;
+}
